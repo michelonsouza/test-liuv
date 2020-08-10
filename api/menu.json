@@ -2,6 +2,7 @@
 	"categories": [{
 		"id": 1,
 		"name": "Lanches",
+		"image": "https://blog.saipos.com/wp-content/uploads/2020/01/delivery-lanches-2.jpg",
 		"items": [{
 			"id": 1,
 			"name": "Hamb\u00farguer",
@@ -26,6 +27,7 @@
 	}, {
 		"id": 2,
 		"name": "Bebidas",
+		"image": "https://i1.wp.com/www.vozdobico.com.br/wp-content/uploads/2019/10/refrigerantes.jpg",
 		"items": [{
 			"id": 5,
 			"name": "Coca-Cola",
@@ -48,6 +50,7 @@
 	}, {
 		"id": 3,
 		"name": "Entradas",
+		"image": "https://t1.rg.ltmcdn.com/pt/images/9/2/9/cebola_empanada_onion_rings_2929_600.jpg",
 		"items": [{
 			"id": 8,
 			"name": "Batata Frita com Cheddar",
