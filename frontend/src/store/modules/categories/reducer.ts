@@ -6,21 +6,24 @@ import { Category } from '../../../@types';
 
 export interface CategoriesState {
   loading: boolean;
+  categorySelected?: Category;
   categories: Category[];
 }
 
 const initialState: CategoriesState = {
   loading: false,
+  categorySelected: undefined,
   categories: [],
 };
 
 export default function categories(
   state = initialState,
-  action = {} as AppAction<{ categories: Category[] }>,
+  action = {} as AppAction<{ categories: Category[]; category?: Category }>,
 ): CategoriesState | void {
   return produce(state, draft => {
     switch (action.type) {
-      case types.GET_CATEGORIES: {
+      case types.GET_CATEGORIES:
+      case types.GET_CATEGORY: {
         draft.loading = true;
         break;
       }
@@ -31,8 +34,15 @@ export default function categories(
         break;
       }
 
+      case types.GET_CATEGORY_SUCCESS: {
+        draft.categorySelected = action.payload.category;
+        draft.loading = false;
+        break;
+      }
+
       case types.GET_CATEGORIES_FAIL: {
         draft.categories = [];
+        draft.categorySelected = undefined;
         draft.loading = false;
         break;
       }

@@ -72,10 +72,26 @@ export const CardImg = styled.div<CardImgProps>`
 export const CategoryInfo = styled.div`
   ${({ theme }) => css`
     padding: 16px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
 
     h3 {
       color: ${theme.colors.primary};
       margin-bottom: 16px;
+    }
+
+    p {
+      margin-bottom: 16px;
+    }
+
+    span.price {
+      display: block;
+      margin-bottom: 16px;
+    }
+
+    button {
+      margin-top: auto;
     }
   `}
 `;

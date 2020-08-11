@@ -48,9 +48,9 @@ Para rodar o serviço, é necessário instalar o json-server:
 
 Após isso, rodar o comando: `json-server --watch api/menu.json`
 
-Isso irá disponibilizar uma api REST rodando no endereço http://localhost:3000/categories.
+Isso irá disponibilizar uma api REST rodando no endereço http://localhost:3333/categories.
 
-Um produto especifico pode ser acessado através da url http://localhost:3000/categories/{id};
+Um produto especifico pode ser acessado através da url http://localhost:3333/categories/{id};
 
 > caso ache necessário, pode acrescentar informações no json da api, como por exemplo imagens. Isso seria um plus para a analise do resultado. :)
 

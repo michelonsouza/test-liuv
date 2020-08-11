@@ -7,22 +7,26 @@
 			"id": 1,
 			"name": "Hamb\u00farguer",
 			"description": "P\u00e3o, bife de hamb\u00farguer 90g, salada e batata.",
-			"unit_price": 8.5
+      "unit_price": 8.5,
+      "image": "https://novelando.ig.com.br/wp-content/uploads/2020/07/hamburguer-anna-paula.jpg"
 		}, {
 			"id": 2,
 			"name": "X-B\u00farguer",
 			"description": "P\u00e3o, bife de hamb\u00farguer 90g, 1 fatia de queijo, salada e batata.",
-			"unit_price": 10.5
+      "unit_price": 10.5,
+      "image": "https://cdn.panelinha.com.br/receita/1562096945621-receita.jpg"
 		}, {
 			"id": 3,
 			"name": "X-Bacon",
 			"description": "P\u00e3o, bife de hamb\u00farguer 90g, 1 fatia de queijo, 2 fatia de bacon, salada e batata.",
-			"unit_price": 12.5
+      "unit_price": 12.5,
+      "image": "https://www.dilelanches.com.br/wp-content/uploads/2020/05/X-Bacon.jpg"
 		}, {
 			"id": 4,
 			"name": "X-Tudo",
 			"description": "P\u00e3o, 2 bifes de hamb\u00farguer 90g, 2 fatias de queijo, 4 fatias de bacon, salada e batata.",
-			"unit_price": 14.5
+      "unit_price": 14.5,
+      "image": "https://www.receiteria.com.br/wp-content/uploads/receitas-de-x-tudo-1200x738.jpg"
 		}]
 	}, {
 		"id": 2,
@@ -33,42 +37,42 @@
 			"name": "Coca-Cola",
 			"description": "Coca-Cola lata (350ml)",
 			"unit_price": 5.5,
-			"image": ""
+			"image": "https://www.shoppingcidade.com.br/media/catalog/product/cache/8755e169cc75063c0efdca7d840c4280/c/o/coca-cola-lata-viva-pizza-shopping-cidade.jpg"
 		}, {
 			"id": 6,
 			"name": "Fanta",
 			"description": "Fanta lata (350ml)",
 			"unit_price": 5.5,
-			"image": ""
+			"image": "https://imgprd.martins.com.br/medias/sys_master/images/images/h9c/he7/8933872697374/giga-13525412-01.jpg"
 		}, {
 			"id": 7,
 			"name": "Sprite",
 			"description": "Sprite lata (350ml)",
 			"unit_price": 5.5,
-			"image": ""
+			"image": "https://lh3.googleusercontent.com/proxy/dvsSdc5-jzdXJ9zDaNpqG6nduYsd_tKtbJX8_QQjCWY1e-ezbS-WzU3Da-aQXWU-b5R5lIDaR2PGwQS--_c8yD4KBn7PteaFS0kGf1-Gqib8W8nYLKCExzYue-kiTAvsyg"
 		}]
 	}, {
 		"id": 3,
 		"name": "Entradas",
-		"image": "https://t1.rg.ltmcdn.com/pt/images/9/2/9/cebola_empanada_onion_rings_2929_600.jpg",
+		"image": "https://3.bp.blogspot.com/-7BaXUb6h4-o/Wzl9j4MWckI/AAAAAAAANMk/V2Wya_wAQxQi3uF3sxyKFZukO2WK44UZQCLcBGAs/w1200-h630-p-k-no-nu/batata-frita-com-cheddar-e-bacon-2.JPG",
 		"items": [{
 			"id": 8,
 			"name": "Batata Frita com Cheddar",
 			"description": "Batata Frita com Cheddar (Serve 2 pessoas)",
 			"unit_price": 15.5,
-			"image": ""
+			"image": "https://3.bp.blogspot.com/-7BaXUb6h4-o/Wzl9j4MWckI/AAAAAAAANMk/V2Wya_wAQxQi3uF3sxyKFZukO2WK44UZQCLcBGAs/w1200-h630-p-k-no-nu/batata-frita-com-cheddar-e-bacon-2.JPG"
 		}, {
 			"id": 9,
 			"name": "Batata Frita",
 			"description": null,
 			"unit_price": 13,
-			"image": ""
+			"image": "https://img.itdg.com.br/tdg/images/recipes/000/018/897/164773/164773_original.jpg?mode=crop&width=710&height=400"
 		}, {
 			"id": 10,
 			"name": "Bolinho de Bacalhau",
 			"description": "Por\u00e7\u00e3o com 12",
 			"unit_price": 29,
-			"image": ""
+			"image": "https://img.itdg.com.br/tdg/images/recipes/000/001/979/312902/312902_original.jpg?mode=crop&width=710&height=400"
 		}]
 	}]
 }

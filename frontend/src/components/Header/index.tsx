@@ -10,7 +10,7 @@ import { Container } from './styles';
 import burgerLogo from '../../assets/images/burger.svg';
 
 const Header: React.FC = () => {
-  const { totalItems } = useSelector((state: DefaultRootState) => state.cart);
+  const { items } = useSelector((state: DefaultRootState) => state.cart);
 
   return (
     <Container>
@@ -28,7 +28,7 @@ const Header: React.FC = () => {
           <li>
             <Link to="/cart" className="go-to-cart">
               <MdShoppingCart size={24} color="#d32f2f" />
-              {totalItems > 0 && <span>{totalItems}</span>}
+              {items.length > 0 && <span>{items.length}</span>}
             </Link>
           </li>
         </ul>
